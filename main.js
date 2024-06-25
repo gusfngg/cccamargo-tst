@@ -48,11 +48,13 @@ ScrollReveal({
   #services,
   #services header,
   #services .cards .card,
+  #services .cards .card img,
   #about, 
   #about header, 
   #about .content,
   #contact,
   #contact header,
   #contact .content,
-  footer
+  footer,
+  footer p
 `)
