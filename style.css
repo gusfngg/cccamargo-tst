@@ -382,6 +382,17 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
+#services .card .card-image {
+  height: 332px;
+  width: 332px;
+
+  margin-top: 1.6rem;
+
+  border-radius: 0.5rem;
+
+  object-fit: cover;
+}
+
 /*=== ABOUT =================================*/
 #about {
   text-align: left;
@@ -484,7 +495,7 @@ footer .social-links {
     overflow: auto;
   }
 
-  .wrapper {
+  .wrapper {  
     width: min(112rem, 100%);
     display: grid;
   }
@@ -719,6 +730,11 @@ footer .social-links {
     flex-grow: 1;
   }
 
+  #services .card .card-image {
+    height: 29rem;
+    width: 29rem;
+  }
+
   /* about */
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
@@ -731,7 +747,7 @@ footer .social-links {
   }
 
   #about .content p {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
   }
 
   /* contact */
